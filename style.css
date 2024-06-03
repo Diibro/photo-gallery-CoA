@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@font-face {
-     font-family: "d-din-condensed";
-     src: url("./assets/fonts/D-DIN.woff");
-}
 
 @font-face {
      font-family: "din-condensed";
@@ -63,10 +59,7 @@ body{
      transform: all 0.6s ease;
 }
 
-.gallery-photo-container:hover .gallery-image img{
-     filter: grayscale(100%);
-     transform: scale(1.1);
-}
+
 .gallery-photo-description {
      width: 100%;
      position: absolute;
@@ -95,11 +88,7 @@ body{
      z-index: 10;
 }
 
-.gallery-photo-container:hover .gallery-photo-description {
-     background: #00000095;
-     -webkit-backdrop-filter: blur(5px);
-     backdrop-filter: blur(5px);
-}
+
 
 
 .gallery-photo-description h1{
@@ -134,9 +123,25 @@ body{
      font-size: 18px;
 }
 
-.gallery-photo-container:hover .gallery-photo-description .description a {
+
+/* mouse enter effects */
+
+
+.gallery-photo-container-hover .gallery-image img{
+     filter: grayscale(100%);
+     transform: scale(1.1);
+}
+
+.gallery-photo-container-hover .gallery-photo-description {
+     background: #00000095;
+     -webkit-backdrop-filter: blur(5px);
+     backdrop-filter: blur(5px);
+}
+
+.gallery-photo-container-hover .gallery-photo-description .description a {
      height: 20px;
 }
+
 
 @media only screen and (max-width: 768px) {
      .gallery-container{
