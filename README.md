@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 -> You have basic knowledge of HTML, CSS, and JavaScript.
 -> (Optional) A local server setup (e.g., using VS Code Live Server extension or similar).
 
-#Installation
+# Installation
 To set up and run this project locally, follow these steps:
 
 1.Clone the repository:
